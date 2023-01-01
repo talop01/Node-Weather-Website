@@ -7,7 +7,7 @@
     "node": "14.x"
   },
   "scripts": {
-    "start":"node Source/app.js"
+    "start":"node Source/index.js"
   },
   "keywords": [],
   "author": "",

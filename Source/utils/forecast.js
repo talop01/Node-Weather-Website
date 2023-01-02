@@ -11,7 +11,7 @@ const forecast = (latitude,longitude,callback) => {
         }
         else{
             const general = response.body.current
-            callback(undefined,`It is ${general.weather_descriptions[0]}. It is ${general.temperature} degree celcius but it feels like ${general.feelslike} degree celcius.`)
+            callback(undefined,`It is ${general.weather_descriptions[0]}. It is ${general.temperature} degree celcius but it feels like ${general.feelslike} degree celcius. The wind speed is ${general.wind_speed}.`)
        }
     })
 }
